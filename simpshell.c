@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 			/* sends line and numtoken to parser */
 		}
 		free(line);
-		return (errno);
+		return (0);
 	}
 	while (shell_interaction)/* if interactive */
 	{
