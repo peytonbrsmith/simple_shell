@@ -1,6 +1,6 @@
 # Simple Shell
 
-This repoistory is just a slight fork from its original by [Peyton](https://github.com/peytonbrsmith) (me) and [Allen](https://github.com/ranicholson) (project partner).
+This repoistory is just a slight fork from its original by [Peyton](https://github.com/peytonbrsmith) (me) and [Allen](https://github.com/ranicholson) (project partner) found [here](https://github.com/ranicholson/simple_shell).
 
 This is a simple UNIX shell program built in C. Supported built-in commands are listed below, otherwise this shell is capable of searching for and executing programs on the PATH.
 
