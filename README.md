@@ -1,13 +1,13 @@
 # Simple Shell
 
-Simple shell is a Holberton project to end a semester of learning C. This shell can perform basic functions.
+This is a simple UNIX shell program built in C. Supported built-in commands are listed below, otherwise this shell is capable of searching for and executing programs on the PATH.
 
 ### Features
 
 cd - built-in to change directory
 
 ```
-   cd [DIRECTORY]
+cd [DIRECTORY]
 ```
 
 env - built-in to print the current environment
@@ -29,10 +29,16 @@ Simply clone the repo below and compile!
 ```
 https://github.com/ranicholson/simple_shell
 ```
+
 ## Environment
 Created and tested with **Ubuntu 14.04 LTS**
 
-Compiled with **GCC 4.8.4**
+Compiled with **GCC 4.8.4** with flags: **-Wall -Werror -Wextra -pedantic -std=gnu89**
+
+```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+```
+
 ## Usage
 
 ```
@@ -67,5 +73,7 @@ peytonbrsmith
 Reach out to [Peyton](https://github.com/peytonbrsmith) or [Allen](https://github.com/ranicholson)
 
 ## Project Status
+
+Checked using Valgrind. No known memory leaks or bugs. 
 
 Currently there are no plans to continue working on the simple shell after completion of the project.
